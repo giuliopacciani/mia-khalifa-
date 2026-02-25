@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="it">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Nuovo progetto — Mia Khalifa</title>
+    <style>
+      :root{--bg:#0f1724;--card:#0b1220;--accent:#ff6b6b;--muted:#94a3b8}
+      body{font-family:Inter,system-ui,Segoe UI,Arial,Helvetica,sans-serif;margin:0;background:linear-gradient(180deg,#071025 0%,#081322 100%);color:#e6eef8}
+      .container{max-width:900px;margin:48px auto;padding:24px}
+      header{display:flex;align-items:center;gap:16px}
+      .avatar{width:96px;height:96px;border-radius:12px;background:linear-gradient(135deg,var(--accent),#ffb86b);display:flex;align-items:center;justify-content:center;font-weight:700;color:#092033}
+      h1{margin:0;font-size:1.6rem}
+      p.lead{color:var(--muted);margin:8px 0 18px}
+      .card{background:rgba(255,255,255,0.02);padding:18px;border-radius:12px}
+      .grid{display:grid;grid-template-columns:1fr 280px;gap:16px;margin-top:16px}
+      @media (max-width:800px){.grid{grid-template-columns:1fr}}
+      .meta{color:var(--muted);font-size:0.95rem}
+      a.button{display:inline-block;margin-top:12px;padding:10px 14px;background:var(--accent);color:#081322;border-radius:10px;text-decoration:none;font-weight:600}
+      footer{margin-top:36px;color:var(--muted);font-size:0.9rem}
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <div class="avatar" aria-hidden="true">MK</div>
+        <div>
+          <h1>Annuncio: nuovo progetto</h1>
+          <p class="lead">Pagina informativa sul nuovo lavoro/progetto (contenuto non esplicito).</p>
+          <div class="meta">Ultimo aggiornamento: 25 Febbraio 2026</div>
+        </div>
+      </header>
+
+      <main class="grid">
+        <section>
+          <div class="card">
+            <h2>Di cosa si tratta</h2>
+            <p>Questa pagina presenta un annuncio generico riguardante un nuovo progetto professionale. Le informazioni qui fornite sono a scopo dimostrativo: puoi sostituirle con testo reale, immagini, link a social o materiali multimediali.</p>
+            <h3>Cosa includere</h3>
+            <ul>
+              <li>Descrizione del ruolo o del progetto</li>
+              <li>Obiettivi principali</li>
+              <li>Link a pagine ufficiali o comunicati</li>
+            </ul>
+            <a class="button" href="#contact">Contatta</a>
+          </div>
+        </section>
+
+        <aside>
+          <div class="card">
+            <h3>In evidenza</h3>
+            <p class="meta">Questa sezione può ospitare una foto, un badge del progetto o link rapidi.</p>
+            <div style="height:140px;border-radius:8px;background:linear-gradient(135deg,#0b1526,#082033);display:flex;align-items:center;justify-content:center;margin-top:12px;color:var(--muted)">Immagine/Media</div>
+            <h4 style="margin-top:12px">Link utili</h4>
+            <ul>
+              <li><a href="#">Profilo pubblico</a></li>
+              <li><a href="#">Comunicati</a></li>
+            </ul>
+          </div>
+        </aside>
+      </main>
+
+      <section id="contact" style="margin-top:20px">
+        <div class="card">
+          <h2>Contatti</h2>
+          <p class="meta">Per informazioni o aggiornamenti, aggiungi qui un indirizzo email o i canali social ufficiali.</p>
+          <p style="margin-top:12px">Email: <a href="mailto:info@example.com">info@example.com</a></p>
+        </div>
+      </section>
+
+      <footer>
+        <div>© 2026 — Pagina generata dal repository <strong>mia-khalifa-</strong></div>
+      </footer>
+    </div>
+  </body>
+</html>
